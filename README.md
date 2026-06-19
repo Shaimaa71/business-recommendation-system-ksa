@@ -50,8 +50,6 @@ The system uses several Saudi open datasets, including:
 - Operating Cost 2024
 - Rental Indicators by City and Region
 
-The full raw datasets are not included in this repository due to file size and data organization. Instead, this repository includes sample or processed data for demonstration purposes.
-
 ## Recommendation Approach
 
 The recommendation engine evaluates each business activity using several indicators:
