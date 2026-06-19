@@ -17,8 +17,7 @@ def add_cors_headers(response):
 
 import os
 
-DATASET_PATH = os.path.join(os.path.dirname(__file__), "FINAL_DATASET.csv")
-
+DATASET_PATH = os.path.join(os.path.dirname(__file__), "Data", "FINAL_DATASET.csv")
 df = pd.read_csv(DATASET_PATH, encoding="utf-8-sig")
 
 print("DATASET PATH:", DATASET_PATH)
